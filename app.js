@@ -186,7 +186,7 @@ function renderTrailCard(trail) {
       </div>
       <div class="trail-card-body">
         <h3 class="trail-card-name">${trail.name}</h3>
-        <div class="trail-card-location">${ICONS.location} ${trail.location}</div>
+        <div class="trail-card-location">${trail.location}</div>
         <p class="trail-card-desc">${trail.summary}</p>
         <div class="trail-card-meta">
           <span class="trail-meta-item">${ICONS.distance} ${trail.distance}</span>
@@ -395,7 +395,7 @@ function renderResources() {
                 <div class="resource-card-type">${item.type}</div>
                 <h4 class="resource-card-title">${item.title}</h4>
                 <p class="resource-card-desc">${item.desc}</p>
-                <div class="resource-card-link">访问网站 ${ICONS.externalLink}</div>
+                <div class="resource-card-link">访问网站</div>
               </a>
             `).join('')}
           </div>
