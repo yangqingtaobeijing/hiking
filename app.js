@@ -298,7 +298,7 @@ function renderTrailDetail(trailId) {
                 <a href="${res.url}" target="_blank" rel="noopener" class="resource-card">
                   <div class="resource-card-type">${res.type}</div>
                   <div class="resource-card-title">${res.title}</div>
-                  <div class="resource-card-link">访问 ${ICONS.externalLink}</div>
+                  <div class="resource-card-link">访问</div>
                 </a>
               `).join('')}
             </div>
